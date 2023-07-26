@@ -1,0 +1,9 @@
+s="geeksforgeeks"
+
+stack=[]
+
+for i in range(len(s)):
+
+    stack.insert(i,s[i])
+
+print(stack)
